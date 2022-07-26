@@ -1,4 +1,28 @@
 body {
   display: flex;
   justify-content: center;
+  margin: .2em;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: .2em;
+  width: 100%;
+  max-width: 30em;
+  margin-top: 2em;
+}
+
+nav a {
+  font-family: 'Courier';
+  text-decoration: none;
+  color: black;
+  border-radius: 1em;
+  padding: 1em;
+  transition: 800ms;
+}
+
+nav a:hover {
+  background-color: aqua;
+  transform: rotate(2deg);
 }
